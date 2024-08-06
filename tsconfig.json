@@ -2,6 +2,7 @@
   "files": [],
   "references": [
     { "path": "web" },
-    { "path": "common" }
+    { "path": "common" },
+    { "path": "mobile" }
   ]
 }

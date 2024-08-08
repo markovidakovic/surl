@@ -7,7 +7,7 @@
   "description": "",
   "workspaces": [
     "common",
-    "web",
+    "portal",
     "mobile"
   ],
   "devDependencies": {

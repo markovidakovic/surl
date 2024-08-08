@@ -1,8 +1,8 @@
 {
   "files": [],
   "references": [
-    { "path": "web" },
+    { "path": "portal" },
     { "path": "common" },
-    { "path": "mobile" }
+    { "path": "mobile" },
   ]
 }

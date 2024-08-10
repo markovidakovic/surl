@@ -7,5 +7,6 @@ import (
 
 func main() {
 	r := chi.NewRouter()
+
 	r.Use(middleware.Logger)
 }

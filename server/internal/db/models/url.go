@@ -1,7 +1,11 @@
 package models
 
-import "gorm.io/gorm"
+import "time"
 
 type Url struct {
-	gorm.Model
+	ID        uint `gorm:primaryKey`
+	CreatedAt time.Time
+	UpdatedAt time.Time
+	Original  string `gorm:not null`
+	Short     string `gorm:unique;not null`
 }

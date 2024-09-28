@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
+	"log"
+
+	"github.com/markovidakovic/surl/server/internal/rest"
 )
 
 func main() {
-	r := chi.NewRouter()
-	r.Use(middleware.Logger)
+	srvr := rest.NewServer()
+	log.Fatal(srvr.Start())
 }

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-migrate create -ext sql -dir internal/database/migrations -seq create_users_table
+migrate create -ext sql -dir internal/db/migrations -seq create_users_table
